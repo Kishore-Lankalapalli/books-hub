@@ -1,0 +1,87 @@
+.header-container {
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .header-container {
+    padding-left: 150px;
+    padding-right: 150px;
+    height: 15vh;
+  }
+}
+.book-hub-website-logo-image {
+  height: 24px;
+  width: 97px;
+}
+@media screen and (min-width: 768px) {
+  .book-hub-website-logo-image {
+    height: 43px;
+    width: 133px;
+  }
+}
+.hamburger-icon-button {
+  border: none;
+  background-color: transparent;
+  margin-right: 0px;
+}
+@media screen and (min-width: 768px) {
+  .hamburger-icon-button {
+    display: none;
+  }
+}
+.hamburder-icon {
+  height: 20px;
+  width: 20px;
+}
+.nav-container {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .nav-container {
+    display: block;
+    display: flex;
+
+    flex-direction: row;
+    align-items: center;
+  }
+}
+.nav-items-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+.nav-item-text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  color: #64748b;
+  margin-right: 15px;
+}
+.logout-button {
+  width: 73px;
+  height: 32px;
+
+  background: #0284c7;
+  border-radius: 4px;
+  border-width: 0px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+
+  /* Light / blue-gray / 50 */
+
+  color: #f8fafc;
+}

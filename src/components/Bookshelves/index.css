@@ -1,0 +1,163 @@
+.bookshelves-container {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 30px;
+}
+
+.search-input {
+  border: none;
+  padding-left: 10px;
+  color: #94a3b8;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+  width: 80%;
+}
+
+.search-input-container {
+  display: flex;
+  height: 30px;
+  border: 1px solid #cbd5e1;
+  width: 250px;
+}
+.search-button {
+  background-color: #edeff1;
+  flex-grow: 1;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  cursor: pointer;
+  outline: none;
+}
+.bookshleves-heading {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  /* Light / blue-gray / 700 */
+
+  color: #334155;
+}
+.tabs-list-container {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.tab-button {
+  height: 22px;
+  border: 1px solid #0284c7;
+  background-color: transparent;
+  border-radius: 13px;
+  color: #0284c7;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  padding: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+}
+
+.active-tab-button {
+  background-color: #0284c7;
+  color: #ffffff;
+}
+
+.book-shelves-list-container {
+  padding-left: 0px;
+  list-style-type: none;
+}
+.book-shelve-item-container {
+  display: flex;
+  margin-bottom: 25px;
+  flex-grow: 1;
+}
+.book-shelve-book-image {
+  width: 133px;
+  height: 155px;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+.bookshelf-book-title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  /* Light / blue-gray / 700 */
+
+  color: #334155;
+}
+.book-shelve-book-details-container {
+  align-self: center;
+}
+.bookshelf-book-author {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height, or 114% */
+
+  /* Light / blue-gray / 600 */
+
+  color: #475569;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.rating-container {
+  display: flex;
+  align-items: center;
+  margin-top: 0px;
+}
+.avg-rating-text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+
+  /* Light / blue-gray / 600 */
+
+  color: #475569;
+  margin-right: 9px;
+}
+.rating-star-icon {
+  color: yellow;
+  margin-right: 9px;
+}
+.read-status-text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+
+  /* Light / blue-gray / 600 */
+
+  color: #475569;
+  margin-top: 0px;
+}
+.status-text {
+  color: #0284c7;
+  font-size: 17px;
+}
